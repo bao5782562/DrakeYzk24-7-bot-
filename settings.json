@@ -1,12 +1,12 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Technoblade",
+    "username": "BotAFK24/7",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobos13.aternos.me",
+    "ip": "DrakeXfakechogai.aternos.me",
     "port": 29195,
     "version": "1.21.1"
   },
@@ -17,7 +17,7 @@
     "z": 0
   },
   "utils": {
-    "auto-auth": {
+    "-auth": {
       "enabled": true,
       "password": "Slobos"
     },
@@ -36,8 +36,8 @@
       ]
     },
     "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "-reconnect": true,
+    "-reconnect-delay": 2000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": true,
@@ -70,7 +70,7 @@
   },
   "combat": {
     "attack-mobs": true,
-    "auto-eat": true
+    "-eat": true
   },
   "beds": {
     "pick-up-day": true,
